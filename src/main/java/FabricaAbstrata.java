@@ -1,4 +1,4 @@
 public interface FabricaAbstrata {
-    Cama criarCama();
-    GuardaRoupa criarGuardaRoupa();
+    Cama solicitarCama();
+    GuardaRoupa solicitarGuardaRoupa();
 }
